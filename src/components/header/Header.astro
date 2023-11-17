@@ -1,0 +1,17 @@
+---
+import ThemeSwitch from '../ThemeSwitch.astro'
+import Languaje from '../Languaje.astro';
+import Links from '../Links.astro';
+
+---
+<header>
+  <Links />
+  <Languaje />
+  <ThemeSwitch />
+</header>
+
+<style>
+  header{
+    @apply py-5 px-20 flex justify-end gap-10;
+  }
+</style>
