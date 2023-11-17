@@ -1,0 +1,29 @@
+<div class="about">
+  <h1>Hi there, I'm <span>Darynka</span> 👋</h1>
+  <div class="paragraphs">
+    <p><span>Web developer</span> with more than 4 years of experience.</p>
+    <p>I'm a <span>self-taught</span> person who likes to be constantly learning, with a current focus on the Frontend area.</p>
+  </div>
+  <button>Let's talk</button>
+</div>
+
+<style lang="scss">
+  .about{
+    @apply py-5 px-20 flex flex-col gap-6;
+    color: var(--web-light);
+    & h1{
+      @apply text-[32px];
+    }
+    & span {
+      color: var(--web-blue);
+    }
+    & .paragraphs{
+      @apply flex flex-col gap-6;
+      & p{
+        @apply text-[28px]
+
+      }
+    }
+
+  }
+</style>
