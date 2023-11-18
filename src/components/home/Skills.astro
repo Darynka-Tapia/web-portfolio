@@ -1,0 +1,99 @@
+<div class="skills">
+  <p class="skills__title">Skills</p>
+  <div class="skills__list">
+    <div class="area-container">
+      <div class="area">
+        <p class="area__title">Front-end</p>
+        <div class="area__items">
+          <span class="item">HTML</span>
+          <span class="item">CSS</span>
+          <span class="item">Vue.js</span>
+          <span class="item">Astro</span>
+          <span class="item">JavaScript</span>
+          <span class="item">Sass</span>
+          <span class="item">TailwindCSS</span>
+          <span class="item">MaterializeCSS</span>
+        </div>
+      </div>
+      <div class="area">
+        <p class="area__title">Back-end</p>
+        <div class="area__items">
+          <span class="item">PHP</span>
+          <span class="item">Laravel</span>
+          <span class="item">Java</span>
+          <span class="item">Node.js</span>
+        </div>
+      </div>
+      <div class="area">
+        <p class="area__title">Database</p>
+        <div class="area__items">
+          <span class="item">MySQL</span>
+          <span class="item">MariaDB</span>
+          <span class="item">SQLite</span>
+          <span class="item">MongoDB</span>
+        </div>
+      </div>
+      <div class="area">
+        <p class="area__title">UX/UI</p>
+        <div class="area__items">
+          <span class="item">Figma</span>
+          <span class="item">InVision Studio</span>
+        </div>
+      </div>
+      <div class="area">
+        <p class="area__title">Others</p>
+        <div class="area__items">
+          <span class="item">Git</span>
+          <span class="item">Notion</span>
+          <span class="item">Blender</span>
+          <span class="item">Unity</span>
+          <span class="item">Dart</span>
+          <span class="item">Flutter</span>
+          <span class="item">Postman</span>
+          <span class="item">JWT</span>
+        </div>
+      </div>
+    </div>
+    <img src="images/ilustration-3.svg" alt="">
+  </div>
+</div>
+
+<style lang="scss">
+  .skills{
+    @apply flex flex-col justify-center items-center w-full px-5 py-8 gap-8;
+    &__title{
+      color: var(--web-light);
+      font-size: 32px;
+      font-weight: 700;
+    }
+    &__list{
+      @apply flex items-end flex-col sm:flex-row;
+      .area-container{
+        @apply flex flex-col gap-6 w-full mb-4;
+        max-width: 842px;
+        & .area{
+          &__title{
+            color: var(--web-light);
+            font-size: 26px;
+            font-weight: 700;
+          }
+          &__items{
+            @apply flex flex-wrap gap-2;
+            & .item{
+              @apply text-base sm:text-lg;
+              padding: 4px 32px;
+              border-radius: 16px;
+              background-color: var(--web-dark-mid);
+              color: var(--web-light);
+              font-weight: 500;
+            }
+          }
+
+        }
+      }
+      img{
+        @apply mx-auto w-[150px] h-[150px] sm:w-[250px] sm:h-[350px] object-contain;
+      }
+    }
+  }
+</style>

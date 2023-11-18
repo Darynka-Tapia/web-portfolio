@@ -5,40 +5,24 @@
 </label>
 
 <style>
-  /* The switch - the box around the slider */
 .switch {
-  position: relative;
-  display: inline-block;
-  width: 3.5em; /* 56px */
-  height: 2em; /* 32px */
+  @apply relative inline-block w-10 h-6 sm:w-14 sm:h-8;
 }
 
-/* Hide default HTML checkbox */
 .switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
+  @apply opacity-0 w-0 h-0;
 }
 
-/* The slider */
 .slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  @apply absolute cursor-pointer top-0 left-0 right-0 bottom-0;
   background-color: var(--web-dark-mid);
   transition: .5s;
   border-radius: 30px;
 }
 
 .slider:before {
-  position: absolute;
+  @apply absolute w-[16px] h-[16px] sm:h-[22px] sm:w-[22px] rounded-full;
   content: "";
-  height: 1.4em;
-  width: 1.4em;
-  border-radius: 50%;
   left: 10%;
   bottom: 15%;
   box-shadow: inset 8px -4px 0px 0px var(--web-blue);
@@ -47,7 +31,7 @@
 }
 
 input:checked + .slider {
-  background-color: var(--web-blue);;
+  background-color: var(--web-blue);
 }
 
 input:checked + .slider:before {

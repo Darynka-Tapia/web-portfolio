@@ -1,27 +1,52 @@
 <div class="about">
-  <h1>Hi there, I'm <span>Darynka</span> 👋</h1>
-  <div class="paragraphs">
-    <p><span>Web developer</span> with more than 4 years of experience.</p>
-    <p>I'm a <span>self-taught</span> person who likes to be constantly learning, with a current focus on the Frontend area.</p>
+  <div class="about__information">
+    <h1>Hi there, I'm <span>Darynka</span> 👋</h1>
+    <div class="paragraphs">
+      <p><span>Web developer</span> with more than 4 years of experience.</p>
+      <p>I'm a <span>self-taught</span> person who likes to be constantly learning, with a current focus on the Frontend area.</p>
+    </div>
+    <button>Let's talk</button>
   </div>
-  <button>Let's talk</button>
+  <div class="about__ilustration">
+    <img src="images/ilustration-1.svg" class="ilustration" alt="">
+    <img src="images/photo.png" class="photo" alt="">
+    <a class="download-cv" href="#">Download CV</a>
+  </div>
+  
 </div>
 
 <style lang="scss">
   .about{
-    @apply py-5 px-20 flex flex-col gap-6;
-    color: var(--web-light);
-    & h1{
-      @apply text-[32px];
+    @apply grid grid-cols-1	sm:grid-cols-2;
+    &__information{
+      @apply py-5 px-5 sm:px-20 flex flex-col gap-6;
+      color: var(--web-light);
+      & h1{
+        @apply text-[26px] sm:text-[32px];
+      }
+      & span {
+        color: var(--web-blue);
+      }
+      & .paragraphs{
+        @apply flex flex-col gap-6;
+        & p{
+          @apply text-[20px] sm:text-[28px]
+        }
+      }
+      & button{
+        @apply w-full p-3 rounded-2xl text-lg font-medium max-w-[390px];
+        background-color: var(--web-blue);
+        color: var(--web-dark);
+      }
     }
-    & span {
-      color: var(--web-blue);
-    }
-    & .paragraphs{
-      @apply flex flex-col gap-6;
-      & p{
-        @apply text-[28px]
-
+    &__ilustration{
+      @apply mx-auto first-letter:w-auto;
+      .ilustration{
+        @apply relative top-12;
+      }
+      a.download-cv{
+        @apply text-2xl font-medium text-center p-3 w-full block;
+        color: var(--web-blue);
       }
     }
 

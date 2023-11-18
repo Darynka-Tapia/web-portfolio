@@ -1,0 +1,31 @@
+<div class="currently">
+  <img src="images/ilustration-2.svg" alt="" class="currently__ilustration">
+  <div class="currently__list">
+    <div class="items">
+      <p>🌱 I'm currently learning more about front-end and system design</p>
+      <p>💻 I'm currently working with frontend (TypeScript and Vue.js)</p>
+      <p>💬 Ask me about frontend and web design</p>
+    </div>
+    
+  </div>
+</div>
+
+<style lang="scss">
+  .currently{
+    &__ilustration{
+      @apply relative top-[76px];
+    }
+    &__list{
+      @apply py-20 px-5 sm:px-10;
+      background-color: var(--web-dark-mid);
+      & .items{
+        @apply flex flex-col gap-4;
+        max-width: 820px;
+        & p{
+          @apply text-xl sm:text-2xl font-normal sm:font-medium;
+          color: var(--web-light);
+        }
+      }
+    }
+  }
+</style>
