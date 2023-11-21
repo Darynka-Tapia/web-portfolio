@@ -1,3 +1,9 @@
+---
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
 <div class="links">
   <a href="https://github.com/Darynka-Tapia" target="_blank">Github</a>
   <a href="https://www.linkedin.com/in/abril-tapia/" target="_blank">Linkedin</a>

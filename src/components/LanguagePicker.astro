@@ -1,0 +1,39 @@
+---
+import { languages } from '../i18n/ui';
+
+import { getLangFromUrl } from '../i18n/utils';
+
+const langSelected = getLangFromUrl(Astro.url);
+---
+
+<div class="languaje">
+  <img src="/images/Translation-dark.png" alt="">
+  <select name="" id="ls">
+    {Object.entries(languages).map(([lang, label]) => (
+      <option value={lang} selected={lang === langSelected}> {label} </option>
+    ))}
+  </select>
+</div>
+
+<script>
+  const ls = document.querySelector("#ls");
+  ls?.addEventListener("change", changeLanguaje);
+
+  function changeLanguaje( event: any ){
+    location.href = `/${event.target.value}`;
+  }
+</script>
+
+<style>
+  .languaje{
+    @apply flex justify-center items-center gap-1 sm:gap-2 py-1 px-2 sm:px-4 rounded-2xl text-xs sm:text-sm;
+    background-color: var(--web-dark-mid);
+  }
+  .languaje select{
+    @apply outline-none;
+    color: var(--web-light);
+    background-color: var(--web-dark-mid);
+
+  }
+
+</style>

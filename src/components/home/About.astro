@@ -1,16 +1,23 @@
+---
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
 <div class="about">
   <div class="about__information">
-    <h1>Hi there, I'm <span>Darynka</span> 👋</h1>
+    <h1>{t('about.greats')} <span>Darynka</span> 👋</h1>
     <div class="paragraphs">
-      <p><span>Web developer</span> with more than 4 years of experience.</p>
-      <p>I'm a <span>self-taught</span> person who likes to be constantly learning, with a current focus on the Frontend area.</p>
+      <p><span>{t('about.area')} </span> {t('about.experience')}  </p>
+      <p>{t('about.self-taught-first')} <span>{t('about.self-taught')} </span> {t('about.self-taught-end')} </p>
     </div>
-    <button>Let's talk</button>
+    <button> {t('about.call-action')} </button>
   </div>
   <div class="about__ilustration">
-    <img src="images/ilustration-1.svg" class="ilustration" alt="">
-    <img src="images/photo.png" class="photo" alt="">
-    <a class="download-cv" href="#">Download CV</a>
+    <img src="/images/ilustration-1.svg" class="ilustration" alt="">
+    <img src="/images/photo.png" class="photo" alt="">
+    <a class="download-cv" href="#"> {t('about.download')} </a>
   </div>
   
 </div>
