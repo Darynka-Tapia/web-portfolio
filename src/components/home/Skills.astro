@@ -1,106 +1,114 @@
----
-import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+<section id="skills" class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-12">
+      <h2 class="text-slate-900 mb-4 text-3xl font-semibold">Skills & Expertise</h2>
+      <p class="text-slate-600">What I bring to the table</p>
+    </div>
 
-const lang = getLangFromUrl(Astro.url);
-const t = useTranslations(lang);
----
+    <div class="grid md:grid-cols-2 gap-12">
+      <!-- === Technical Skills === -->
+      <div>
+        <h3 class="text-slate-900 mb-8 text-xl font-semibold">Technical Skills</h3>
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+          <!-- Ejemplo: reemplaza o genera dinámicamente tus skills -->
+          <div
+            class="bg-gradient-to-br from-indigo-500 to-indigo-300 p-[2px] rounded-xl shadow-sm hover:shadow-md transition-all duration-300 hover:scale-105">
+            <div class="bg-white p-4 rounded-xl text-center">
+              <p class="text-slate-700 font-medium">HTML</p>
+            </div>
+          </div>
 
-<div class="skills">
-  <p class="skills__title"> {t('skills.title')} </p>
-  <div class="skills__list">
-    <div class="area-container">
-      <div class="area">
-        <p class="area__title">Front-end</p>
-        <div class="area__items">
-          <span class="item">HTML</span>
-          <span class="item">CSS</span>
-          <span class="item">Vue.js</span>
-          <span class="item">Astro</span>
-          <span class="item">JavaScript</span>
-          <span class="item">Sass</span>
-          <span class="item">TailwindCSS</span>
-          <span class="item">MaterializeCSS</span>
+          <div
+            class="bg-gradient-to-br from-purple-500 to-indigo-400 p-[2px] rounded-xl shadow-sm hover:shadow-md transition-all duration-300 hover:scale-105">
+            <div class="bg-white p-4 rounded-xl text-center">
+              <p class="text-slate-700 font-medium">CSS</p>
+            </div>
+          </div>
+
+          <div
+            class="bg-gradient-to-br from-pink-400 to-rose-500 p-[2px] rounded-xl shadow-sm hover:shadow-md transition-all duration-300 hover:scale-105">
+            <div class="bg-white p-4 rounded-xl text-center">
+              <p class="text-slate-700 font-medium">JavaScript</p>
+            </div>
+          </div>
+
+          <div
+            class="bg-gradient-to-br from-sky-400 to-blue-500 p-[2px] rounded-xl shadow-sm hover:shadow-md transition-all duration-300 hover:scale-105">
+            <div class="bg-white p-4 rounded-xl text-center">
+              <p class="text-slate-700 font-medium">Vue.js</p>
+            </div>
+          </div>
+
+          <div
+            class="bg-gradient-to-br from-emerald-400 to-teal-500 p-[2px] rounded-xl shadow-sm hover:shadow-md transition-all duration-300 hover:scale-105">
+            <div class="bg-white p-4 rounded-xl text-center">
+              <p class="text-slate-700 font-medium">TailwindCSS</p>
+            </div>
+          </div>
+
+          <div
+            class="bg-gradient-to-br from-amber-400 to-orange-500 p-[2px] rounded-xl shadow-sm hover:shadow-md transition-all duration-300 hover:scale-105">
+            <div class="bg-white p-4 rounded-xl text-center">
+              <p class="text-slate-700 font-medium">TypeScript</p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="area">
-        <p class="area__title">Back-end</p>
-        <div class="area__items">
-          <span class="item">PHP</span>
-          <span class="item">Laravel</span>
-          <span class="item">Java</span>
-          <span class="item">Node.js</span>
-        </div>
-      </div>
-      <div class="area">
-        <p class="area__title">Database</p>
-        <div class="area__items">
-          <span class="item">MySQL</span>
-          <span class="item">MariaDB</span>
-          <span class="item">SQLite</span>
-          <span class="item">MongoDB</span>
-        </div>
-      </div>
-      <div class="area">
-        <p class="area__title">UX/UI</p>
-        <div class="area__items">
-          <span class="item">Figma</span>
-          <span class="item">InVision Studio</span>
-        </div>
-      </div>
-      <div class="area">
-        <p class="area__title">Others</p>
-        <div class="area__items">
-          <span class="item">Git</span>
-          <span class="item">Notion</span>
-          <span class="item">Blender</span>
-          <span class="item">Unity</span>
-          <span class="item">Dart</span>
-          <span class="item">Flutter</span>
-          <span class="item">Postman</span>
-          <span class="item">JWT</span>
+
+      <!-- === Soft Skills === -->
+      <div>
+        <h3 class="text-slate-900 mb-8 text-xl font-semibold">Soft Skills</h3>
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+          <div
+            class="p-4 border border-slate-200 rounded-xl text-center hover:shadow-md hover:scale-105 transition-all duration-300 bg-gradient-to-br from-white to-slate-50/50">
+            <div class="flex justify-center mb-2 text-indigo-600">
+              <!-- Icono ejemplo: -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M12 4v16m8-8H4" />
+              </svg>
+            </div>
+            <p class="text-slate-700 font-medium">Teamwork</p>
+          </div>
+
+          <div
+            class="p-4 border border-slate-200 rounded-xl text-center hover:shadow-md hover:scale-105 transition-all duration-300 bg-gradient-to-br from-white to-slate-50/50">
+            <div class="flex justify-center mb-2 text-indigo-600">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M9 12h6m2 0a2 2 0 10-4 0 2 2 0 004 0zM12 4v1m0 14v1m8-9h1M4 12H3m15.364-6.364l.707.707M6.343 17.657l-.707.707M17.657 17.657l.707-.707M6.343 6.343l-.707-.707" />
+              </svg>
+            </div>
+            <p class="text-slate-700 font-medium">Adaptability</p>
+          </div>
+
+          <div
+            class="p-4 border border-slate-200 rounded-xl text-center hover:shadow-md hover:scale-105 transition-all duration-300 bg-gradient-to-br from-white to-slate-50/50">
+            <div class="flex justify-center mb-2 text-indigo-600">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3 7l6 6-6 6M21 7l-6 6 6 6" />
+              </svg>
+            </div>
+            <p class="text-slate-700 font-medium">Problem Solving</p>
+          </div>
+
+          <div
+            class="p-4 border border-slate-200 rounded-xl text-center hover:shadow-md hover:scale-105 transition-all duration-300 bg-gradient-to-br from-white to-slate-50/50">
+            <div class="flex justify-center mb-2 text-indigo-600">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M12 8v4l3 3" />
+              </svg>
+            </div>
+            <p class="text-slate-700 font-medium">Time Management</p>
+          </div>
         </div>
       </div>
     </div>
-    <img src="/images/ilustration-3.svg" alt="">
   </div>
-</div>
-
-<style lang="scss">
-  .skills{
-    @apply flex flex-col justify-center items-center w-full px-5 py-8 gap-8;
-    &__title{
-      color: var(--web-light);
-      font-size: 32px;
-      font-weight: 700;
-    }
-    &__list{
-      @apply flex items-end flex-col sm:flex-row;
-      .area-container{
-        @apply flex flex-col gap-6 w-full mb-4;
-        max-width: 842px;
-        & .area{
-          &__title{
-            color: var(--web-light);
-            font-size: 26px;
-            font-weight: 700;
-          }
-          &__items{
-            @apply flex flex-wrap gap-2;
-            & .item{
-              @apply text-base sm:text-lg;
-              padding: 4px 32px;
-              border-radius: 16px;
-              background-color: var(--web-dark-mid);
-              color: var(--web-light);
-              font-weight: 500;
-            }
-          }
-
-        }
-      }
-      img{
-        @apply mx-auto w-[150px] h-[150px] sm:w-[250px] sm:h-[350px] object-contain;
-      }
-    }
-  }
-</style>
+</section>
