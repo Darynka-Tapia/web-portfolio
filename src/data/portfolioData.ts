@@ -2,6 +2,7 @@ import type { ExperienceItem, NavSectionId, ProjectCategory, ProjectItem, SkillG
 import behaviorMockup from '../assets/behaviorjs-laptop-mockup.jpg';
 import rpsMockup from '../assets/rps-tablet-mockup.jpg';
 import vaquitaMockup from '../assets/una-vaquita-desktop-mockup.jpg';
+import huellitasMockup from '../assets/huellitas-mockup.jpg';
 
 export const NAV_ITEMS: { id: NavSectionId; label: string; sectionId: string }[] = [
   { id: 'home', label: 'Home', sectionId: 'hero' },
@@ -24,11 +25,12 @@ export const SOCIAL_LINKS = {
   linkedin: 'https://www.linkedin.com/in/abril-tapia/',
   github: 'https://github.com/Darynka-Tapia',
   npm: 'https://www.npmjs.com/settings/tapyka/packages',
-  huellitasHiFiFigma:
-    'https://www.figma.com/proto/kDzPRdCZzc7qSTtzaLbYlq/Huellitas?page-id=78%3A131&node-id=78-132&node-type=frame&viewport=3182%2C94%2C2.48&t=lzJETVGsGgfnqj8L-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=78%3A132',
-  huellitasLowFiFigma:
-    'https://www.figma.com/proto/kDzPRdCZzc7qSTtzaLbYlq/Huellitas?page-id=0%3A1&node-id=65-65&node-type=canvas&viewport=-18%2C-637%2C0.28&t=igvIsuKpSp3idM1h-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=65%3A65&show-proto-sidebar=1',
-};
+  huellitasHiFiFigma: 'https://www.figma.com/proto/kDzPRdCZzc7qSTtzaLbYlq/Huellitas?page-id=78%3A131&node-id=78-132&node-type=frame&viewport=3182%2C94%2C2.48&t=lzJETVGsGgfnqj8L-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=78%3A132',
+  huellitasLowFiFigma: 'https://www.figma.com/proto/kDzPRdCZzc7qSTtzaLbYlq/Huellitas?page-id=0%3A1&node-id=65-65&node-type=canvas&viewport=-18%2C-637%2C0.28&t=igvIsuKpSp3idM1h-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=65%3A65&show-proto-sidebar=1',
+  artAuctionLowFiFigma: 'https://www.figma.com/proto/spFXOFRoJ6oqQIY8xW1Lg2/ArtAuction?content-scaling=fixed&node-id=1-2&page-id=0%3A1&scaling=scale-down&starting-point-node-id=1%3A2&t=tXRjd90PYK6wMjPS-1&viewport=642%2C267%2C0.19',
+  artAuctionHiFiFigma: 'https://www.figma.com/proto/spFXOFRoJ6oqQIY8xW1Lg2/ArtAuction?content-scaling=fixed&node-id=121-6&page-id=121%3A5&scaling=scale-down&starting-point-node-id=121%3A6&t=eLd4wNiEsUFfEsSc-1&viewport=374%2C460%2C0.31',
+
+  };
 
 export const PROJECTS: ProjectItem[] = [
   {
@@ -87,8 +89,7 @@ export const PROJECTS: ProjectItem[] = [
       'A modular platform structure with dedicated sections for lost pets, found pets and rescue support.',
     categories: ['ux-ui'],
     tags: ['UX Research', 'Figma', 'Design Systems', 'Accessibility (a11y)'],
-    imageSrc:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuBaLE3KGp7noJTsmUGEqvxEf2HuR2P-o5q1JaLoA5XakWr9oxaUO6R6BtWvUs4FyH3SoIbAvu8TuywBqqtZer_vCEUCESR8FvRHxic1_3sF4YWk2Rrr4-C5JpZ0KRjVNt0Cl5IdYlCWAT2ojxXk3zXmHBJ-m9Axys3EYdVOT8O9FwxoaZsjtl3F1DptsjIa8vozgNwebxwU759Sg_QWQuzRsw0YKErSR7OTdHOQCZE',
+    imageSrc:huellitasMockup,
     imageAlt:
       'UI presentation of Huellitas animal rescue web platform mockup on high resolution screen displaying pet profiles, search filters, and warm lilac aesthetic accents',
     actions: [

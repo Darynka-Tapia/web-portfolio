@@ -180,7 +180,7 @@ export function ArtAuctionCaseStudy({ onBackToProjects, onContact }: HuellitasCa
             <div className="mt-space-xl p-space-lg rounded-xl bg-surface-container flex flex-col md:flex-row md:items-center justify-between gap-space-md">
               <div className="flex flex-col">
                 <span className="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">
-                  Artifacts Delivered
+                  UX Design Process
                 </span>
                 <span className="font-headline-sm text-headline-sm text-on-surface">
                   Comprehensive End-to-End UX Deliverables

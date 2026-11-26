@@ -12,7 +12,8 @@ import { ExperienceSection } from './components/ExperienceSection';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
 import { HeroSection } from './components/HeroSection';
-import { HuellitasCaseStudy } from './components/HuellitasCaseStudy';
+//import { HuellitasCaseStudy } from './components/HuellitasCaseStudy';
+import { CaseStudy } from './components/case-study/CaseStudy';
 import { ArtAuctionCaseStudy } from './components/ArtAuctionCaseStudy';
 import { ProjectsSection } from './components/ProjectsSection';
 import { SkillsSection } from './components/SkillsSection';
@@ -227,14 +228,16 @@ export default function App() {
               <ContactSection onShowToast={showToast} />
             </div>
           ) : currentView === 'huellitas-case-study' ? (
-            <HuellitasCaseStudy
+            <CaseStudy
               onBackToProjects={handleBackToProjects}
               onContact={() => scrollToSection('contact')}
+              caseStudyId='huellitas-case-study'
             />
           ) : currentView === 'art-auction-case-study' ? (
-            <ArtAuctionCaseStudy
+            <CaseStudy
               onBackToProjects={handleBackToProjects}
               onContact={() => scrollToSection('contact')}
+              caseStudyId='art-auction-case-study'
             />
           ) : null}
         </main>
