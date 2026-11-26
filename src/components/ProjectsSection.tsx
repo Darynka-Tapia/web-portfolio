@@ -26,14 +26,16 @@ export function ProjectsSection({ onOpenCaseStudy }: ProjectsSectionProps) {
           <div className="flex flex-col gap-space-xs">
             <div className="inline-flex items-center gap-space-xs text-primary font-label-sm text-label-sm uppercase tracking-widest">
               <span className="w-1.5 h-1.5 rounded-full bg-primary" />
-              <span>Featured Case Studies &amp; Codebases</span>
+              <span>Explore My Work</span>
             </div>
             <h2 className="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface tracking-tight">
               Selected Projects
             </h2>
             <p className="font-body-md text-body-md text-on-surface-variant max-w-xl">
-              A curated collection of web applications, reusable design architectures, and
-              open-source tooling built with precision.
+              A selection of web applications, developer tools, interactive projects, and UX case studies that reflect my experience and approach to frontend development.
+            </p>
+            <p className="font-body-md text-body-sm text-on-surface-variant max-w-xl">
+              Some projects from my professional experience cannot be shared publicly due to confidentiality.
             </p>
           </div>
 
@@ -275,10 +277,10 @@ export function ProjectsSection({ onOpenCaseStudy }: ProjectsSectionProps) {
           <div className="p-space-xl bg-surface-container-low rounded-xl flex flex-col md:flex-row items-center justify-between gap-space-lg text-center md:text-left">
             <div className="flex flex-col gap-space-xs">
               <h3 className="font-headline-sm text-headline-sm text-on-surface font-semibold">
-                Looking for experimental repositories & source code?
+                Want to explore more of my code?
               </h3>
               <p className="font-body-sm text-body-sm text-on-surface-variant">
-                Continuous contributions, architectural spikes, and documentation on GitHub.
+                Visit my GitHub to explore personal projects, experiments, and source code.
               </p>
             </div>
             <a

@@ -22,8 +22,7 @@ export function ExperienceSection() {
             Work Experience
           </h2>
           <p className="font-body-md text-body-md text-on-surface-variant max-w-xl">
-            A track record of frontend ownership, enterprise scalability, and cross-functional
-            leadership.
+            My professional journey in software development, from frontend engineering to full-stack experience and collaborative team projects.
           </p>
         </Reveal>
 

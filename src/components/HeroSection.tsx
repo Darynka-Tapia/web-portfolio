@@ -42,7 +42,7 @@ export function HeroSection({ onNavigate }: HeroSectionProps) {
                 Abril Tapia
               </h1>
               <p className="font-headline-sm text-headline-sm text-primary font-medium tracking-tight mt-space-xs">
-                Designing scalable frontend systems with surgical attention to craft.
+                Building responsive web applications with clean and reusable code.
               </p>
             </motion.div>
 
@@ -54,7 +54,7 @@ export function HeroSection({ onNavigate }: HeroSectionProps) {
             >
               <div className="absolute -left-1.5 top-space-md bottom-space-md w-1 bg-primary rounded-full" />
               <p className="font-body-lg text-body-lg text-secondary italic">
-                “Building thoughtful digital experiences through frontend development and clean architecture.”
+                “I approach frontend development with a UX/UI perspective to create better user experiences.”
               </p>
             </motion.div>
 
@@ -80,39 +80,6 @@ export function HeroSection({ onNavigate }: HeroSectionProps) {
                 <span>Contact Me</span>
                 <span className="material-symbols-outlined text-[18px]">mail</span>
               </a>
-            </motion.div>
-
-            {/* Highlight Micro-Metrics */}
-            <motion.div
-              initial={{ opacity: 0, y: 14 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.32, ease: [0.16, 1, 0.3, 1] }}
-              className="grid grid-cols-3 gap-space-sm sm:gap-space-md pt-space-md sm:pt-space-lg max-w-lg"
-            >
-              <div className="flex flex-col">
-                <span className="font-headline-md text-headline-md text-on-surface font-semibold tabular-nums">
-                  5+
-                </span>
-                <span className="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">
-                  Years Experience
-                </span>
-              </div>
-              <div className="flex flex-col">
-                <span className="font-headline-md text-headline-md text-on-surface font-semibold tabular-nums">
-                  100%
-                </span>
-                <span className="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">
-                  Clean Architecture
-                </span>
-              </div>
-              <div className="flex flex-col">
-                <span className="font-headline-md text-headline-md text-on-surface font-semibold">
-                  WCAG
-                </span>
-                <span className="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">
-                  Accessibility Focus
-                </span>
-              </div>
             </motion.div>
           </div>
 
@@ -206,7 +173,7 @@ export function HeroSection({ onNavigate }: HeroSectionProps) {
               >
                 <div className="bg-surface-container-lowest border border-outline-variant/60 p-2.5 rounded-xl shadow-lg flex flex-col gap-1.5 animate-float-token-b hover:shadow-xl transition-shadow">
                   <div className="flex items-center justify-between text-[10px] font-mono text-primary font-medium">
-                    <span>&lt;Button.vue&gt;</span>
+                    <span>&lt;Button&gt;</span>
                     <span className="w-1.5 h-1.5 rounded-full bg-primary" />
                   </div>
                   <div className="inline-flex items-center justify-center gap-1 bg-primary text-on-primary text-[11px] font-medium py-1 px-2.5 rounded-full shadow-sm">
@@ -261,7 +228,7 @@ export function HeroSection({ onNavigate }: HeroSectionProps) {
                     <div className="h-5 px-3 bg-surface-container-lowest rounded-full border border-outline-variant/30 flex items-center gap-1.5">
                       <span className="w-1.5 h-1.5 rounded-full bg-primary" />
                       <span className="font-mono text-[10px] text-on-surface-variant truncate max-w-[120px]">
-                        https://abril.dev/ui
+                        https://darynka-tapia.netlify.app/
                       </span>
                     </div>
                     <div className="w-3" />

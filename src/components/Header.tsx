@@ -84,11 +84,10 @@ export function Header({ activeSection, currentView, onNavigate }: HeaderProps) 
         <div className="flex items-center gap-space-sm sm:gap-space-md shrink-0">
           <a
             className="hidden sm:inline-flex items-center justify-center bg-primary text-on-primary font-label-md text-label-md px-space-lg py-space-sm rounded-full hover:bg-primary-container hover:text-on-primary-container transition-all whitespace-nowrap"
-            data-path="contact"
-            href="#contact"
-            onClick={(e) => handleLinkClick('contact', e)}
+            href="/files/Abril-Tapia-Frontend-Engineer-Resume.pdf"
+            download="Abril-Tapia-Frontend-Engineer-Resume.pdf"
           >
-            Let's Talk
+            Download CV
           </a>
           <button
             aria-label={mobileMenuOpen ? 'Close Mobile Menu' : 'Open Mobile Menu'}

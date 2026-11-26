@@ -10,11 +10,10 @@ export function SkillsSection() {
             Capabilities
           </span>
           <h2 className="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface tracking-tight">
-            Technical Arsenal
+            Technical Skills
           </h2>
           <p className="font-body-md text-body-md text-on-surface-variant max-w-xl">
-            Structured tools, languages, and methodologies practiced throughout production
-            lifecycles.
+            Technologies, tools, and methodologies I use to build, maintain, and improve web applications.
           </p>
         </Reveal>
 

@@ -243,7 +243,7 @@ export const EXPERIENCES: ExperienceItem[] = [
     period: 'January 2024 – March 2026',
     description:
       'Led frontend architecture and reusable UI component standards across enterprise web suites. Mentored engineers, spearheaded code quality initiatives, and systematically enforced web performance and WCAG AA accessibility baselines.',
-    tags: ['Vue 3', 'TypeScript', 'Tailwind CSS', 'Pinia', 'Vitest'],
+    tags: ['Vue 3', 'React', 'TypeScript', 'Tailwind CSS', 'Pinia', 'Vitest', 'Descope'],
     dotStyle: 'primary',
   },
   {
@@ -253,7 +253,7 @@ export const EXPERIENCES: ExperienceItem[] = [
     period: 'November 2021 – December 2023',
     description:
       'Developed enterprise user interfaces, streamlined complex client-side state handling, and integrated high-throughput RESTful backend endpoints with fluid interaction patterns.',
-    tags: ['Vue 2/3', 'JavaScript', 'REST APIs', 'CSS3'],
+    tags: ['Vue 2/3', 'TypeScript', 'JavaScript', 'REST APIs', 'CSS3'],
     dotStyle: 'tertiary',
   },
   {
@@ -263,7 +263,7 @@ export const EXPERIENCES: ExperienceItem[] = [
     period: 'March 2020 – September 2021',
     description:
       'Engineered core features across full-stack applications, developed RESTful endpoints, maintained relational database models, and enhanced platform performance.',
-    tags: ['PHP', 'Laravel', 'MySQL', 'JavaScript'],
+    tags: ['Vue 2','PHP', 'Laravel', 'MySQL', 'JavaScript'],
     dotStyle: 'tertiary',
   },
   {
@@ -305,19 +305,19 @@ export const SKILL_GROUPS: SkillGroup[] = [
     id: 'testing-quality',
     title: 'Testing & Quality',
     icon: 'verified_user',
-    skills: ['Vitest', 'Unit Testing', 'SonarQube', 'Lighthouse', 'WCAG 2.1'],
+    skills: ['Vitest', 'Unit Testing', 'SonarQube', 'Lighthouse', 'Code Reviews'],
   },
   {
-    id: 'state-backend',
-    title: 'State & Backend',
+    id: 'backend-integrations',
+    title: 'Backend & Integrations',
     icon: 'account_tree',
-    skills: ['Pinia', 'PHP', 'Laravel', 'RESTful APIs', 'MySQL / MariaDB'],
+    skills: ['PHP', 'Laravel', 'Node.js','RESTful APIs', 'API Integration', 'MySQL', 'MariaDB'],
   },
   {
-    id: 'auth-api',
-    title: 'Auth & API',
+    id: 'state-auth',
+    title: 'State Management & Authentication',
     icon: 'vpn_key',
-    skills: ['Descope', 'SSO', 'API Integration', 'JWT'],
+    skills: ['Pinia','Descope', 'SSO', 'JWT', 'Authentication Flows'],
   },
   {
     id: 'tools-workflow',
@@ -332,7 +332,7 @@ export const SKILL_GROUPS: SkillGroup[] = [
     highlighted: true,
     badge: 'Active Learning',
     description:
-      'Investigating modern server component paradigms, edge computing topologies, and reactive Postgres architectures for next-generation interfaces.',
-    skills: ['Next.js', 'Supabase'],
+      'Exploring new approaches and improving my skills through practical experimentation.',
+    skills: ['Next.js', 'Supabase', 'Express.js'],
   },
 ];

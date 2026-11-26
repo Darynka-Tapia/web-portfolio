@@ -1,32 +1,32 @@
 import { Reveal } from './Reveal';
 
 const PILLARS = [
-  { icon: 'verified', label: '5+ Years Experience' },
-  { icon: 'token', label: 'Reusable UI Systems' },
-  { icon: 'architecture', label: 'Clean Architecture' },
-  { icon: 'accessibility_new', label: 'Human-Centered UX' },
+  { icon: 'verified', label: '5+ Years in Frontend' },
+  { icon: 'token', label: 'Reusable Components' },
+  { icon: 'architecture', label: 'Scalable Architecture' },
+  { icon: 'palette', label: 'UI & UX Principles' },
 ];
 
 const SPECIALIZATIONS = [
   {
-    kicker: 'Frontend Specialization',
-    title: 'Design Systems & Component Logic',
+    kicker: 'Frontend Development',
+    title: 'Responsive Web Applications',
     description:
-      'Translating design token primitives into deterministic, battle-tested Vue and React component trees that empower rapid product iteration.',
+      'Building responsive web applications with Vue, React, JavaScript, and TypeScript, focusing on clean code and maintainable architecture.',
   },
   {
-    kicker: 'Usability & Standards',
-    title: 'WCAG 2.1 AA Accessibility',
+    kicker: 'UI Engineering',
+    title: 'Reusable Components & Design Systems',
     description:
-      'Building for all users via semantic HTML5, keyboard navigation primitives, robust ARIA attributes, and high contrast color audits.',
+      'Creating reusable UI components and implementing design systems with Atomic Design to maintain consistency and simplify frontend development.',
   },
   {
-    kicker: 'Full-Stack Foundations',
-    title: 'API & Data Contract Fluency',
+    kicker: 'Code Quality',
+    title: 'Testing & Development Standards',
     description:
-      'Deep understanding of relational schemas, RESTful response contracts, and state caching enables frictionless full-stack collaboration.',
+      'Improving application reliability through unit testing, code reviews, reusable solutions, and consistent frontend development practices.',
   },
-];
+]
 
 export function AboutSection() {
   return (
@@ -45,20 +45,13 @@ export function AboutSection() {
           {/* Editorial Bio Narrative (7 cols) */}
           <Reveal delay={0.05} className="lg:col-span-7 flex flex-col gap-space-md">
             <p className="font-body-lg text-body-lg text-on-surface leading-relaxed">
-              Frontend development is my primary realm of expertise. I specialize in conceptualizing
-              and engineering responsive web applications with scalable, highly modular UI
-              components built on bulletproof architecture.
+              I’m a Frontend Developer focused on building responsive web applications with clean code, reusable components, and maintainable architecture. I enjoy turning requirements into functional interfaces that work well across different devices.
             </p>
             <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-              My background in UX/UI design deeply enhances my engineering practice—providing a
-              holistic viewpoint that values not only algorithmic efficiency and test coverage, but
-              also pixel-level consistency, design tokens, and human usability.
+              My experience in UX/UI design also complements my development skills, helping me consider both how an application works and how people use it. I’ve also worked on building and implementing design systems using Atomic Design.
             </p>
             <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-              With solid foundations in full-stack web engineering, I bridge the gap between backend
-              capabilities and fluid user experiences. I thrive on continuous learning, whether
-              auditing performance metrics, experimenting with evolving frontend specifications, or
-              refining team workflows.
+              I also have some experience with backend development and databases, which complements my fullstack skills and gives me a broader understanding of how web applications work. I’m always looking to learn and improve my skills.
             </p>
 
             {/* Core Pillar Highlight Chips */}

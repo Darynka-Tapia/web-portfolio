@@ -12,8 +12,7 @@ export function Footer({ onNavigate }: FooterProps) {
         <div className="flex flex-col gap-space-xs">
           <span className="font-headline-sm text-headline-sm text-on-surface">Abril Tapia</span>
           <p className="font-body-sm text-body-sm text-on-surface-variant">
-            Frontend Software Engineer — Crafting deliberate user interfaces with precision and
-            performance.
+            Frontend Software Engineer — Building thoughtful, responsive, and reliable web experiences.
           </p>
         </div>
         <div className="flex flex-wrap items-center gap-space-lg">
@@ -48,7 +47,7 @@ export function Footer({ onNavigate }: FooterProps) {
       </div>
       <div className="max-w-7xl mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop pb-space-xl text-left">
         <p className="font-body-sm text-body-sm text-on-surface-variant">
-          © Abril Tapia. Built with modern web standards.
+          © Abril Tapia. Designed and developed with care.
         </p>
       </div>
     </footer>
