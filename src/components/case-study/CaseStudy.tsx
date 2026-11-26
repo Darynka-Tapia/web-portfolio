@@ -41,7 +41,7 @@ export function CaseStudy({ onBackToProjects, onContact, caseStudyId }: CaseStud
             Back to Projects
           </button>
           <span className="inline-flex items-center px-space-md py-1 rounded-full bg-secondary-container text-on-secondary-fixed font-label-sm text-label-sm uppercase tracking-wider">
-            /projects/huellitas
+            {caseStudyData.slug}
           </span>
         </div>
       </section>
