@@ -241,7 +241,7 @@ export const EXPERIENCES: ExperienceItem[] = [
     company: 'HTech Solutions',
     period: 'January 2024 – March 2026',
     description:
-      'Led frontend architecture and reusable UI component standards across enterprise web suites. Mentored engineers, spearheaded code quality initiatives, and systematically enforced web performance and WCAG AA accessibility baselines.',
+      'Primary frontend developer, focused on application development, reusable solutions, and frontend quality. Collaborated with design and backend teams on feature planning and implementation, while mentoring developers and contributing to shared development practices.',
     tags: ['Vue 3', 'React', 'TypeScript', 'Tailwind CSS', 'Pinia', 'Vitest', 'Descope'],
     dotStyle: 'primary',
   },
@@ -251,7 +251,7 @@ export const EXPERIENCES: ExperienceItem[] = [
     company: 'HTech Solutions',
     period: 'November 2021 – December 2023',
     description:
-      'Developed enterprise user interfaces, streamlined complex client-side state handling, and integrated high-throughput RESTful backend endpoints with fluid interaction patterns.',
+      'Built and maintained frontend interfaces with an emphasis on reusable UI components and consistent design patterns. Worked alongside the UX team to standardize the design system, support its transition to Figma, and bring design specifications into development.',
     tags: ['Vue 2/3', 'TypeScript', 'JavaScript', 'REST APIs', 'CSS3'],
     dotStyle: 'tertiary',
   },

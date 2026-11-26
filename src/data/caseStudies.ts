@@ -350,7 +350,7 @@ export const CASE_STUDIES: CaseStudyData[] = [
     // SECTION 5 - USER PERSONAS
     personas: {
       eyebrow: '03 / Human Context',
-      title: 'Archetypal User Personas',
+      title: 'User Personas',
       description:
         'Synthesized from qualitative interviews, these profiles represent both sides of the community rescue dynamic.',
       items: [
@@ -770,7 +770,7 @@ export const CASE_STUDIES: CaseStudyData[] = [
     // SECTION 5 - USER PERSONAS
     personas: {
       eyebrow: '03 / Human Context',
-      title: 'Archetypal User Personas',
+      title: 'User Personas',
       description:
         'Synthesized from user research, these profiles represent art enthusiasts with varying levels of digital familiarity.',
       items: [
