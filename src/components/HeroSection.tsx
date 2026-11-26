@@ -65,7 +65,7 @@ export function HeroSection({ onNavigate }: HeroSectionProps) {
               className="flex flex-wrap items-center gap-space-md pt-space-sm"
             >
               <a
-                className="inline-flex items-center justify-center gap-space-sm bg-primary text-on-primary font-label-md text-label-md px-space-lg sm:px-space-xl py-3 rounded-full hover:bg-primary-container transition-all shadow-sm hover:shadow-md transform hover:-translate-y-0.5"
+                className="inline-flex items-center justify-center gap-space-sm bg-primary text-on-primary font-label-md text-label-md px-space-md sm:px-space-xl py-2 rounded-full hover:bg-primary-container transition-all shadow-sm hover:shadow-md transform hover:-translate-y-0.5"
                 href="#projects"
                 onClick={(e) => handleJump('projects', e)}
               >
@@ -73,7 +73,7 @@ export function HeroSection({ onNavigate }: HeroSectionProps) {
                 <span className="material-symbols-outlined text-[18px]">arrow_downward</span>
               </a>
               <a
-                className="inline-flex items-center justify-center gap-space-sm bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-lg sm:px-space-xl py-3 rounded-full hover:bg-secondary-container/50 transition-all shadow-sm"
+                className="inline-flex items-center justify-center gap-space-sm bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-md sm:px-space-xl py-2 rounded-full hover:bg-secondary-container/50 transition-all shadow-sm"
                 href="#contact"
                 onClick={(e) => handleJump('contact', e)}
               >
@@ -84,7 +84,7 @@ export function HeroSection({ onNavigate }: HeroSectionProps) {
           </div>
 
           {/* Right: Architectural Editorial Portrait Frame */}
-          <div className="lg:col-span-5 flex justify-center lg:justify-end relative w-full pt-space-md lg:pt-0">
+          <div className="lg:col-span-5 hidden lg:flex justify-center lg:justify-end relative w-full pt-space-md lg:pt-0">
             <div className="relative w-full max-w-md sm:max-w-lg min-h-[430px] sm:h-[500px] flex items-center justify-center select-none">
               {/* Dynamic Subtle Ambient Glow */}
               <div className="absolute -inset-6 bg-gradient-to-tr from-secondary-container/50 via-primary/5 to-surface-container-low rounded-3xl blur-2xl -z-10 pointer-events-none opacity-80" />

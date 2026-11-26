@@ -17,7 +17,6 @@ export const PROJECT_FILTERS: { id: ProjectCategory; label: string }[] = [
   { id: 'all', label: 'All Projects' },
   { id: 'development', label: 'Development' },
   { id: 'ux-ui', label: 'UX/UI' },
-  { id: 'open-source', label: 'Open Source' },
 ];
 
 export const SOCIAL_LINKS = {

@@ -71,10 +71,10 @@ export function AboutSection() {
           </Reveal>
 
           {/* Right Side: Editorial Metric Cards & Architectural Mindset (5 cols) */}
-          <div className="lg:col-span-5 flex flex-col gap-space-md">
+          <div className="lg:col-span-5 flex flex-col gap-space-md md:flex-row md:flex-wrap">
             {SPECIALIZATIONS.map((item, idx) => (
-              <Reveal key={item.title} delay={0.08 + idx * 0.08}>
-                <div className="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-xs hover:shadow-md transition-shadow duration-300">
+              <Reveal key={item.title} delay={0.08 + idx * 0.08} className="w-full md:flex-1 md:basis-62">
+                <div className="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-xs hover:shadow-md transition-shadow duration-300 h-full">
                   <span className="font-label-sm text-label-sm text-primary uppercase tracking-wider">
                     {item.kicker}
                   </span>

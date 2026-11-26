@@ -22,7 +22,7 @@ export function ProjectsSection({ onOpenCaseStudy }: ProjectsSectionProps) {
     <section className="w-full py-space-2xl lg:py-space-3xl scroll-mt-20" id="projects">
       <div className="max-w-7xl mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop">
         {/* Section Header with Category Filter Controls */}
-        <Reveal className="flex flex-col md:flex-row md:items-end justify-between gap-space-lg mb-space-2xl">
+        <Reveal className="flex flex-col lg:flex-row lg:items-end justify-between gap-space-sm lg:gap-space-lg mb-space-2xl">
           <div className="flex flex-col gap-space-xs">
             <div className="inline-flex items-center gap-space-xs text-primary font-label-sm text-label-sm uppercase tracking-widest">
               <span className="w-1.5 h-1.5 rounded-full bg-primary" />
@@ -51,7 +51,7 @@ export function ProjectsSection({ onOpenCaseStudy }: ProjectsSectionProps) {
                 <button
                   key={filter.id}
                   aria-pressed={isActive}
-                  className={`px-space-md py-1.5 rounded-full font-label-sm text-label-sm transition-all cursor-pointer whitespace-nowrap ${
+                  className={`px-space-sm lg:px-space-md py-1 lg:py-1.5 rounded-full font-label-sm text-label-sm transition-all cursor-pointer whitespace-nowrap ${
                     isActive
                       ? 'bg-primary text-on-primary shadow-sm'
                       : 'text-on-surface-variant hover:text-on-surface'
@@ -284,13 +284,12 @@ export function ProjectsSection({ onOpenCaseStudy }: ProjectsSectionProps) {
               </p>
             </div>
             <a
-              className="inline-flex items-center gap-space-sm bg-on-surface text-on-primary font-label-md text-label-md px-space-xl py-3 rounded-full hover:bg-inverse-surface transition-all shadow-sm shrink-0"
+              className="inline-flex items-center gap-space-sm bg-on-surface text-on-primary font-label-md text-label-md px-space-lg py-2 rounded-full hover:bg-inverse-surface transition-all shadow-sm shrink-0"
               href={SOCIAL_LINKS.github}
               rel="noopener noreferrer"
               target="_blank"
             >
-              <span className="material-symbols-outlined text-[20px]">code</span>
-              <span>Explore All My Projects on GitHub</span>
+              <span>View GitHub Projects</span>
               <span className="material-symbols-outlined text-[18px]">arrow_forward</span>
             </a>
           </div>

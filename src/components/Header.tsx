@@ -152,11 +152,11 @@ export function Header({ activeSection, currentView, onNavigate }: HeaderProps) 
 
               <div className="pt-space-sm mt-space-xs border-t border-outline-variant/30 sm:hidden">
                 <a
-                  href="#contact"
-                  onClick={(e) => handleLinkClick('contact', e)}
+                  href="/files/Abril-Tapia-Frontend-Engineer-Resume.pdf"
+                  download="Abril-Tapia-Frontend-Engineer-Resume.pdf"
                   className="w-full inline-flex items-center justify-center gap-space-xs bg-primary text-on-primary font-label-md text-label-md px-space-lg py-3 rounded-full hover:bg-primary-container transition-all"
                 >
-                  <span>Let&apos;s Talk</span>
+                  <span>Download CV</span>
                   <span className="material-symbols-outlined text-[18px]">mail</span>
                 </a>
               </div>

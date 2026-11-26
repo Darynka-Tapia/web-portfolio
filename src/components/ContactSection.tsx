@@ -104,9 +104,9 @@ export function ContactSection({ onShowToast }: ContactSectionProps) {
           </div>
 
           {/* External Profile Buttons */}
-          <div className="flex flex-wrap items-center justify-center gap-space-md pt-space-sm">
+          <div className="flex md:flex-wrap items-center justify-center gap-space-sm md:gap-space-md pt-space-sm">
             <a
-              className="inline-flex items-center gap-space-xs bg-surface-container-lowest text-on-surface hover:text-primary font-label-md text-label-md px-space-xl py-3 rounded-full shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all"
+              className="inline-flex items-center gap-space-xs bg-surface-container-lowest text-on-surface hover:text-primary font-label-md text-label-sm md:text-label-md px-space-sm lg:px-space-xl py-2 md:py-3 rounded-full shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all"
               href={SOCIAL_LINKS.linkedin}
               rel="noopener noreferrer"
               target="_blank"
@@ -115,7 +115,7 @@ export function ContactSection({ onShowToast }: ContactSectionProps) {
               <span>LinkedIn Profile</span>
             </a>
             <a
-              className="inline-flex items-center gap-space-xs bg-surface-container-lowest text-on-surface hover:text-primary font-label-md text-label-md px-space-xl py-3 rounded-full shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all"
+              className="inline-flex items-center gap-space-xs bg-surface-container-lowest text-on-surface hover:text-primary font-label-md text-label-sm md:text-label-md px-space-sm lg:px-space-xl py-2 md:py-3 rounded-full shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all"
               href={SOCIAL_LINKS.github}
               rel="noopener noreferrer"
               target="_blank"
