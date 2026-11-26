@@ -778,7 +778,7 @@ export const CASE_STUDIES: CaseStudyData[] = [
           name: 'Diana Martinez',
           role: 'Art Enthusiast & Collector',
           image: {
-            src: artAuctionPersona1,
+            src: artAuctionPersona2,
             alt: 'Portrait photo of Diana Martinez, an art enthusiast and collector',
             fallbackLabel: 'Diana Martinez',
           },
@@ -795,7 +795,7 @@ export const CASE_STUDIES: CaseStudyData[] = [
           name: 'Ignacio Perez',
           role: 'Art Enthusiast & Occasional Bidder',
           image: {
-            src: artAuctionPersona2,
+            src: artAuctionPersona1,
             alt: 'Portrait photo of Ignacio Perez, an art enthusiast and auction participant',
             fallbackLabel: 'Ignacio Perez',
           },
