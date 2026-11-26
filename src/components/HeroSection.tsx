@@ -243,24 +243,6 @@ export function HeroSection({ onNavigate }: HeroSectionProps) {
                 </div>
               </motion.div>
 
-              {/* Subtle Flow SVG Connector Node */}
-              <svg
-                aria-hidden="true"
-                className="absolute inset-0 w-full h-full pointer-events-none z-10 opacity-30 stroke-primary"
-                fill="none"
-                viewBox="0 0 400 480"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  className="animate-dash-flow"
-                  d="M 60 180 C 60 260, 160 240, 200 300"
-                  strokeDasharray="4 4"
-                  strokeWidth="1.5"
-                />
-                <circle cx="60" cy="180" fill="currentColor" r="3.5" />
-                <circle cx="200" cy="300" fill="currentColor" r="3.5" />
-              </svg>
-
               {/* LAYER 3: Elevated High-Fidelity Responsive Viewport Window (Focal Point) */}
               <motion.div
                 initial={{ opacity: 0, y: 20, scale: 0.97 }}
